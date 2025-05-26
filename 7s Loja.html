@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7s - Loja</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #414141;
+            color: white;
+        }
+        header {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #ffffff;
+            font-size: 3em;
+        }
+        nav {
+            background-color: #4e4e4e;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 2px 2px 5px #000;
+        }
+        .banner h2 {
+            font-size: 3em;
+            color: #ffffff;
+        }
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #000000;
+            padding: 20px;
+            border-radius: 15px;
+            width: 300px;
+            box-shadow: 0 0 10px #ffffff;
+        }
+        .card h3 {
+            color: #ffffff;
+        }
+        .card button {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #000000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>7s Loja</h1>
+        <p>Bem Vindo!</p>
+    </header>
+    <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="banner">
+        <h2>Produtos 🛒</h2>
+    </div>
+    <div class="section" id="servicos">
+        <h2>Serviços</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Spotify Premiun</h3>
+                <p>Compre o Spotify Premiun mais barato da Loja.</p>
+                <p> R$ 12,40</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <h3>Youtube premiun</h3>
+                <p>Preço mais barato da Loja.</p>
+                <p> R$ 6,00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <h3>Canva Pro</h3>
+                <p>Garanta já seu Canva pro.</p>
+                <p> R$ 5,10</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="contato">
+        <h2>Contato</h2>
+        <p>Chama no WhatsApp: <strong>(41) 999392587</strong></p>
+        <p>Ou no Discord: <strong>https://discord.gg/5cn7d8f6</strong></p>
+    </div>
+    <footer>
+        &copy; 2025 7s Loja - Todos os direitos reservados.
+    </footer>
+</body>
+</html>
